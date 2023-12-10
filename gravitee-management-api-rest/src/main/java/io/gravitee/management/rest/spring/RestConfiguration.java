@@ -38,6 +38,7 @@ import java.util.Properties;
 @Import({
         PropertiesConfiguration.class, PluginConfiguration.class, ServiceConfiguration.class,
         SecurityConfiguration.class, EmailConfiguration.class, IdentityProviderPluginConfiguration.class
+//        SecurityConfiguration.class, IdentityProviderPluginConfiguration.class
 })
 public class RestConfiguration {
 

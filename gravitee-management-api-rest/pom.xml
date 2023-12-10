@@ -87,7 +87,7 @@
 		<dependency>
 			<groupId>org.glassfish.jersey.media</groupId>
 			<artifactId>jersey-media-json-jackson</artifactId>
-			<version>${jersey.version}</version>
+			<version>${jersey-media.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.glassfish.jersey.ext</groupId>
@@ -97,12 +97,12 @@
 		<dependency>
 			<groupId>org.glassfish.jersey.media</groupId>
 			<artifactId>jersey-media-multipart</artifactId>
-			<version>${jersey.version}</version>
+			<version>${jersey-media.version}</version>
 		</dependency>
 		<dependency>
 			<groupId>org.glassfish.jersey.ext</groupId>
 			<artifactId>jersey-spring5</artifactId>
-			<version>${jersey.version}</version>
+			<version>${jersey-spring5.version}</version>
 			<exclusions>
 				<exclusion>
 					<groupId>org.springframework</groupId>

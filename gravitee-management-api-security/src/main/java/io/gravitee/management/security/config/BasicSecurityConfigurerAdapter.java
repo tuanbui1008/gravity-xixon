@@ -78,6 +78,14 @@ public class BasicSecurityConfigurerAdapter extends WebSecurityConfigurerAdapter
 
     private static final Logger LOGGER = LoggerFactory.getLogger(BasicSecurityConfigurerAdapter.class);
 
+    private static final String[] AUTH_LIST = {
+            // -- swagger ui
+            "/swagger-resources/**",
+            "/swagger-ui.html",
+            "/v2/api-docs",
+            "/webjars/**"
+    };
+
     @Autowired
     private ConfigurableEnvironment environment;
     @Autowired
@@ -220,6 +228,7 @@ public class BasicSecurityConfigurerAdapter extends WebSecurityConfigurerAdapter
 
     private HttpSecurity authorizations(HttpSecurity security) throws Exception {
         return security.authorizeRequests()
+                .antMatchers(AUTH_LIST).permitAll()
                 .antMatchers(HttpMethod.OPTIONS, "**").permitAll()
                 .antMatchers(HttpMethod.POST, "/user/login").permitAll()
                 .antMatchers(HttpMethod.GET, "/user/**").authenticated()
@@ -323,4 +332,6 @@ public class BasicSecurityConfigurerAdapter extends WebSecurityConfigurerAdapter
     private HttpSecurity cors(HttpSecurity security) throws Exception {
         return security.cors().and();
     }
+
+
 }

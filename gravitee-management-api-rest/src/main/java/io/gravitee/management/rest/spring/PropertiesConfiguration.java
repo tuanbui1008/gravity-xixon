@@ -37,6 +37,7 @@ public class PropertiesConfiguration {
     protected final static Logger LOGGER = LoggerFactory.getLogger(PropertiesConfiguration.class);
 
     public final static String GRAVITEE_CONFIGURATION = "gravitee.conf";
+    public final static String PATH_GRAVITEE_CONFIGURATION = "C:\\Users\\NhanNguyen\\OneDrive\\Desktop\\Project\\gravity\\etc\\gravitee.yml";
 
     @Bean(name = "graviteeProperties")
     public static Properties graviteeProperties() throws IOException {
@@ -46,6 +47,7 @@ public class PropertiesConfiguration {
 
         String yamlConfiguration = System.getProperty(GRAVITEE_CONFIGURATION);
         Resource yamlResource = new FileSystemResource(yamlConfiguration);
+//        Resource yamlResource = new FileSystemResource(PATH_GRAVITEE_CONFIGURATION);
 
         LOGGER.info("\tGravitee Management configuration loaded from {}", yamlResource.getURL().getPath());
 

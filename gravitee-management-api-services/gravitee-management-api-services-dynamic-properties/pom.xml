@@ -31,7 +31,7 @@
     <name>Gravitee.io APIM - Management - Services - Dynamic Properties</name>
 
     <properties>
-        <jolt.version>0.1.1</jolt.version>
+        <jolt.version>0.1.0</jolt.version>
     </properties>
 
     <dependencies>
