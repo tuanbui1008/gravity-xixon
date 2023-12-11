@@ -1,0 +1,190 @@
+10:01:47.795 [main] INFO  i.g.m.r.s.PropertiesConfiguration - Loading Gravitee Management configuration.
+10:01:47.803 [main] INFO  i.g.m.r.s.PropertiesConfiguration - 	Gravitee Management configuration loaded from /C:/gravitee/home/config/gravitee.yml
+10:01:47.898 [main] INFO  i.g.m.r.s.PropertiesConfiguration - Loading Gravitee Management configuration. DONE
+10:01:47.914 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - Loading plugin handlers
+10:01:47.934 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - Find 11 plugin handler(s):
+10:01:47.936 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - 	io.gravitee.plugin.discovery.internal.ServiceDiscoveryPluginHandler
+10:01:47.937 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - 	io.gravitee.plugin.fetcher.internal.FetcherPluginHandler
+10:01:47.940 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - 	io.gravitee.management.service.impl.swagger.policy.PolicyPluginHandler
+10:01:47.941 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - 	io.gravitee.plugin.policy.internal.PolicyPluginHandler
+10:01:47.943 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - 	io.gravitee.node.plugins.service.handler.ServicePluginHandler
+10:01:47.944 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - 	io.gravitee.plugin.notifier.internal.NotifierPluginHandler
+10:01:47.947 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - 	io.gravitee.management.repository.plugins.RepositoryPluginHandler
+10:01:47.949 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - 	io.gravitee.node.reporter.plugin.ReporterPluginHandler
+10:01:47.950 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - 	io.gravitee.management.idp.core.plugin.IdentityProviderPluginHandler
+10:01:47.951 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - 	io.gravitee.plugin.alert.internal.AlertPluginHandler
+10:01:47.952 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - 	io.gravitee.plugin.resource.internal.ResourcePluginHandler
+10:01:50.769 [main] INFO  i.g.n.c.NodeDeployerFactoriesLoader - Loading instances for type io.gravitee.node.api.NodeDeployer
+10:01:51.353 [main] INFO  i.g.m.r.p.RepositoryPluginHandler - Loading repository for scope MANAGEMENT: mongodb
+10:01:51.353 [main] INFO  i.g.m.r.p.RepositoryPluginHandler - Loading repository for scope ANALYTICS: elasticsearch
+10:01:51.810 [main] INFO  i.g.m.s.c.BasicSecurityConfigurerAdapter - Loading authentication providers
+10:01:51.845 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @6573ms to org.eclipse.jetty.util.log.Slf4jLog
+10:01:51.999 [main] INFO  i.g.node.container.AbstractContainer - Starting Gravitee.io - Management API...
+10:01:51.999 [main] INFO  i.g.m.standalone.node.ManagementNode - Gravitee.io - Management API is now starting...
+10:01:52.000 [main] INFO  i.g.m.standalone.node.ManagementNode - 	Starting component: PluginEventListener
+10:01:52.000 [main] INFO  i.g.common.service.AbstractService - Initializing service io.gravitee.plugin.core.internal.PluginEventListener
+10:01:52.000 [main] INFO  i.g.c.event.impl.EventManagerImpl - Register new listener PluginEventListener for event type class io.gravitee.plugin.core.api.PluginEvent
+10:01:52.002 [main] INFO  i.g.m.standalone.node.ManagementNode - 	Starting component: PluginRegistry
+10:01:52.002 [main] INFO  i.g.common.service.AbstractService - Initializing service io.gravitee.plugin.core.internal.PluginRegistryImpl
+10:01:52.003 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - Initializing plugin registry.
+10:01:52.003 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - Loading plugins from C:\gravitee\home\plugins
+10:01:52.005 [main] WARN  i.g.p.c.internal.PluginRegistryImpl - No plugin has been found in C:\gravitee\home\plugins
+10:01:52.006 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available policy: 
+10:01:52.011 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available reporter: 
+10:01:52.011 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available service: 
+10:01:52.011 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available repository: 
+10:01:52.011 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available identity_provider: 
+10:01:52.011 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available resource: 
+10:01:52.017 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available fetcher: 
+10:01:52.018 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available certificate: 
+10:01:52.018 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available extension_grant: 
+10:01:52.018 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available notifier: 
+10:01:52.018 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available alert: 
+10:01:52.018 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available service_discovery: 
+10:01:52.019 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available protocol: 
+10:01:52.021 [main] INFO  i.g.p.c.internal.PluginEventListener - All plugins have been loaded. Installing...
+10:01:52.021 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing REPOSITORY plugins...
+10:01:52.023 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing IDENTITY_PROVIDER plugins...
+10:01:52.024 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing RESOURCE plugins...
+10:01:52.028 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing POLICY plugins...
+10:01:52.029 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing SERVICE plugins...
+10:01:52.029 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing REPORTER plugins...
+10:01:52.030 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing FETCHER plugins...
+10:01:52.030 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing CERTIFICATE plugins...
+10:01:52.031 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing EXTENSION_GRANT plugins...
+10:01:52.031 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing NOTIFIER plugins...
+10:01:52.031 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing ALERT plugins...
+10:01:52.031 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing SERVICE_DISCOVERY plugins...
+10:01:52.031 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing PROTOCOL plugins...
+10:01:52.031 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - Plugins have been loaded and installed.
+10:01:52.031 [main] INFO  i.g.m.standalone.node.ManagementNode - 	Starting component: ServiceManager
+10:01:52.032 [main] INFO  i.g.common.service.AbstractService - Initializing service Plugins - Services Manager
+10:01:52.032 [main] INFO  i.g.m.standalone.node.ManagementNode - 	Starting component: ManagementService
+10:01:52.033 [main] INFO  i.g.common.service.AbstractService - Initializing service Node Management API service
+10:01:52.052 [main] INFO  i.g.m.standalone.node.ManagementNode - 	Starting component: ReporterManager
+10:01:52.052 [main] INFO  i.g.common.service.AbstractService - Initializing service Reporter service
+10:01:52.053 [main] INFO  i.g.m.standalone.node.ManagementNode - 	Starting component: JettyEmbeddedContainer
+10:01:52.065 [vert.x-eventloop-thread-0] INFO  i.g.n.m.h.v.v.ManagementVerticle - Start HTTP listener for Node Management API
+10:01:52.090 [vert.x-eventloop-thread-2] INFO  i.g.n.r.vertx.ReporterManagerImpl - 	There is no reporter to start
+10:01:52.185 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.28.v20200408; built: 2020-04-08T17:49:39.557Z; git: ab228fde9e55e9164c738d7fa121f8ac5acd51c9; jvm 1.8.0_391-b26
+10:01:52.216 [main] INFO  o.e.jetty.server.RequestLogWriter - Opened C:\gravitee\home\logs\gravitee_accesslog_2023_12_11.log
+10:01:52.267 [main] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+10:01:52.267 [main] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+10:01:52.286 [main] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+10:01:52.329 [main] INFO  o.e.j.s.h.ContextHandler.management - Initializing Spring root WebApplicationContext
+10:01:52.557 [main] INFO  i.g.m.s.c.BasicSecurityConfigurerAdapter - Loading authentication providers
+10:01:52.586 [main] INFO  i.g.m.s.c.BasicSecurityConfigurerAdapter - Loading authentication identity providers for Basic authentication
+10:01:52.587 [main] INFO  i.g.m.s.c.BasicSecurityConfigurerAdapter - Loading authentication provider of type memory at position 0
+10:01:52.587 [main] ERROR i.g.m.s.c.BasicSecurityConfigurerAdapter - No authentication provider found for type: memory
+10:01:52.587 [main] INFO  i.g.m.s.c.BasicSecurityConfigurerAdapter - Loading authentication provider of type gravitee at position 1
+10:01:52.588 [main] ERROR i.g.m.s.c.BasicSecurityConfigurerAdapter - No authentication provider found for type: gravitee
+10:01:52.657 [main] WARN  i.g.m.s.c.BasicSecurityConfigurerAdapter - 
+10:01:52.657 [main] WARN  i.g.m.s.c.BasicSecurityConfigurerAdapter - ##############################################################
+10:01:52.657 [main] WARN  i.g.m.s.c.BasicSecurityConfigurerAdapter - #                      SECURITY WARNING                      #
+10:01:52.657 [main] WARN  i.g.m.s.c.BasicSecurityConfigurerAdapter - ##############################################################
+10:01:52.657 [main] WARN  i.g.m.s.c.BasicSecurityConfigurerAdapter - 
+10:01:52.657 [main] WARN  i.g.m.s.c.BasicSecurityConfigurerAdapter - You still use the default jwt secret.
+10:01:52.658 [main] WARN  i.g.m.s.c.BasicSecurityConfigurerAdapter - This known secret can be used to impersonate anyone.
+10:01:52.658 [main] WARN  i.g.m.s.c.BasicSecurityConfigurerAdapter - Please change this value, or ask your administrator to do it !
+10:01:52.658 [main] WARN  i.g.m.s.c.BasicSecurityConfigurerAdapter - 
+10:01:52.658 [main] WARN  i.g.m.s.c.BasicSecurityConfigurerAdapter - ##############################################################
+10:01:52.658 [main] WARN  i.g.m.s.c.BasicSecurityConfigurerAdapter - 
+10:01:52.854 [vert.x-eventloop-thread-0] INFO  i.g.n.m.h.v.e.ManagementEndpointManagerImpl - Register a new endpoint for Management API: GET / [io.gravitee.node.management.http.node.NodeEndpoint]
+10:01:52.855 [vert.x-eventloop-thread-0] INFO  i.g.n.m.h.v.e.ManagementEndpointManagerImpl - Register a new endpoint for Management API: GET /configuration [io.gravitee.node.management.http.configuration.ConfigurationEndpoint]
+10:01:52.856 [vert.x-eventloop-thread-0] INFO  i.g.n.m.h.v.v.ManagementVerticle - HTTP listener for Node Management bind to port TCP:18083
+10:01:53.275 [main] INFO  org.eclipse.jetty.server.session - node0 Stopped scavenging
+10:03:45.523 [main] INFO  i.g.m.r.s.PropertiesConfiguration - Loading Gravitee Management configuration.
+10:03:45.537 [main] INFO  i.g.m.r.s.PropertiesConfiguration - 	Gravitee Management configuration loaded from /C:/gravitee/home/config/gravitee.yml
+10:03:45.652 [main] INFO  i.g.m.r.s.PropertiesConfiguration - Loading Gravitee Management configuration. DONE
+10:03:45.670 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - Loading plugin handlers
+10:03:45.682 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - Find 11 plugin handler(s):
+10:03:45.684 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - 	io.gravitee.plugin.discovery.internal.ServiceDiscoveryPluginHandler
+10:03:45.686 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - 	io.gravitee.plugin.fetcher.internal.FetcherPluginHandler
+10:03:45.688 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - 	io.gravitee.management.service.impl.swagger.policy.PolicyPluginHandler
+10:03:45.688 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - 	io.gravitee.plugin.policy.internal.PolicyPluginHandler
+10:03:45.691 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - 	io.gravitee.node.plugins.service.handler.ServicePluginHandler
+10:03:45.692 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - 	io.gravitee.plugin.notifier.internal.NotifierPluginHandler
+10:03:45.695 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - 	io.gravitee.management.repository.plugins.RepositoryPluginHandler
+10:03:45.697 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - 	io.gravitee.node.reporter.plugin.ReporterPluginHandler
+10:03:45.698 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - 	io.gravitee.management.idp.core.plugin.IdentityProviderPluginHandler
+10:03:45.700 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - 	io.gravitee.plugin.alert.internal.AlertPluginHandler
+10:03:45.701 [main] INFO  i.g.p.c.s.PluginHandlerBeanFactoryPostProcessor - 	io.gravitee.plugin.resource.internal.ResourcePluginHandler
+10:03:48.866 [main] INFO  i.g.n.c.NodeDeployerFactoriesLoader - Loading instances for type io.gravitee.node.api.NodeDeployer
+10:03:49.659 [main] INFO  i.g.m.r.p.RepositoryPluginHandler - Loading repository for scope MANAGEMENT: mongodb
+10:03:49.659 [main] INFO  i.g.m.r.p.RepositoryPluginHandler - Loading repository for scope ANALYTICS: elasticsearch
+10:03:50.169 [main] INFO  i.g.m.s.c.BasicSecurityConfigurerAdapter - Loading authentication providers
+10:03:50.213 [main] INFO  org.eclipse.jetty.util.log - Logging initialized @8019ms to org.eclipse.jetty.util.log.Slf4jLog
+10:03:50.392 [main] INFO  i.g.node.container.AbstractContainer - Starting Gravitee.io - Management API...
+10:03:50.392 [main] INFO  i.g.m.standalone.node.ManagementNode - Gravitee.io - Management API is now starting...
+10:03:50.392 [main] INFO  i.g.m.standalone.node.ManagementNode - 	Starting component: PluginEventListener
+10:03:50.393 [main] INFO  i.g.common.service.AbstractService - Initializing service io.gravitee.plugin.core.internal.PluginEventListener
+10:03:50.394 [main] INFO  i.g.c.event.impl.EventManagerImpl - Register new listener PluginEventListener for event type class io.gravitee.plugin.core.api.PluginEvent
+10:03:50.398 [main] INFO  i.g.m.standalone.node.ManagementNode - 	Starting component: PluginRegistry
+10:03:50.398 [main] INFO  i.g.common.service.AbstractService - Initializing service io.gravitee.plugin.core.internal.PluginRegistryImpl
+10:03:50.398 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - Initializing plugin registry.
+10:03:50.398 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - Loading plugins from C:\gravitee\home\plugins
+10:03:50.404 [main] WARN  i.g.p.c.internal.PluginRegistryImpl - No plugin has been found in C:\gravitee\home\plugins
+10:03:50.406 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available policy: 
+10:03:50.411 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available reporter: 
+10:03:50.415 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available service: 
+10:03:50.415 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available repository: 
+10:03:50.415 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available identity_provider: 
+10:03:50.415 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available resource: 
+10:03:50.415 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available fetcher: 
+10:03:50.415 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available certificate: 
+10:03:50.415 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available extension_grant: 
+10:03:50.416 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available notifier: 
+10:03:50.416 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available alert: 
+10:03:50.416 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available service_discovery: 
+10:03:50.416 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - List of available protocol: 
+10:03:50.418 [main] INFO  i.g.p.c.internal.PluginEventListener - All plugins have been loaded. Installing...
+10:03:50.418 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing REPOSITORY plugins...
+10:03:50.421 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing IDENTITY_PROVIDER plugins...
+10:03:50.421 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing RESOURCE plugins...
+10:03:50.421 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing POLICY plugins...
+10:03:50.421 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing SERVICE plugins...
+10:03:50.421 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing REPORTER plugins...
+10:03:50.421 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing FETCHER plugins...
+10:03:50.421 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing CERTIFICATE plugins...
+10:03:50.422 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing EXTENSION_GRANT plugins...
+10:03:50.422 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing NOTIFIER plugins...
+10:03:50.422 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing ALERT plugins...
+10:03:50.422 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing SERVICE_DISCOVERY plugins...
+10:03:50.422 [main] INFO  i.g.p.c.internal.PluginEventListener - Installing PROTOCOL plugins...
+10:03:50.422 [main] INFO  i.g.p.c.internal.PluginRegistryImpl - Plugins have been loaded and installed.
+10:03:50.422 [main] INFO  i.g.m.standalone.node.ManagementNode - 	Starting component: ServiceManager
+10:03:50.422 [main] INFO  i.g.common.service.AbstractService - Initializing service Plugins - Services Manager
+10:03:50.423 [main] INFO  i.g.m.standalone.node.ManagementNode - 	Starting component: ManagementService
+10:03:50.423 [main] INFO  i.g.common.service.AbstractService - Initializing service Node Management API service
+10:03:50.439 [main] INFO  i.g.m.standalone.node.ManagementNode - 	Starting component: ReporterManager
+10:03:50.439 [main] INFO  i.g.common.service.AbstractService - Initializing service Reporter service
+10:03:50.441 [main] INFO  i.g.m.standalone.node.ManagementNode - 	Starting component: JettyEmbeddedContainer
+10:03:50.441 [vert.x-eventloop-thread-0] INFO  i.g.n.m.h.v.v.ManagementVerticle - Start HTTP listener for Node Management API
+10:03:50.461 [vert.x-eventloop-thread-2] INFO  i.g.n.r.vertx.ReporterManagerImpl - 	There is no reporter to start
+10:03:50.549 [main] INFO  org.eclipse.jetty.server.Server - jetty-9.4.28.v20200408; built: 2020-04-08T17:49:39.557Z; git: ab228fde9e55e9164c738d7fa121f8ac5acd51c9; jvm 1.8.0_391-b26
+10:03:50.581 [main] INFO  o.e.jetty.server.RequestLogWriter - Opened C:\gravitee\home\logs\gravitee_accesslog_2023_12_11.log
+10:03:50.620 [main] INFO  org.eclipse.jetty.server.session - DefaultSessionIdManager workerName=node0
+10:03:50.620 [main] INFO  org.eclipse.jetty.server.session - No SessionScavenger set, using defaults
+10:03:50.625 [main] INFO  org.eclipse.jetty.server.session - node0 Scavenging every 600000ms
+10:03:50.647 [main] INFO  o.e.j.s.h.ContextHandler.management - Initializing Spring root WebApplicationContext
+10:03:50.875 [main] INFO  i.g.m.s.c.BasicSecurityConfigurerAdapter - Loading authentication providers
+10:03:50.910 [main] INFO  i.g.m.s.c.BasicSecurityConfigurerAdapter - Loading authentication identity providers for Basic authentication
+10:03:50.910 [main] INFO  i.g.m.s.c.BasicSecurityConfigurerAdapter - Loading authentication provider of type memory at position 0
+10:03:50.911 [main] ERROR i.g.m.s.c.BasicSecurityConfigurerAdapter - No authentication provider found for type: memory
+10:03:50.911 [main] INFO  i.g.m.s.c.BasicSecurityConfigurerAdapter - Loading authentication provider of type gravitee at position 1
+10:03:50.911 [main] ERROR i.g.m.s.c.BasicSecurityConfigurerAdapter - No authentication provider found for type: gravitee
+10:03:50.984 [main] WARN  i.g.m.s.c.BasicSecurityConfigurerAdapter - 
+10:03:50.984 [main] WARN  i.g.m.s.c.BasicSecurityConfigurerAdapter - ##############################################################
+10:03:50.984 [main] WARN  i.g.m.s.c.BasicSecurityConfigurerAdapter - #                      SECURITY WARNING                      #
+10:03:50.984 [main] WARN  i.g.m.s.c.BasicSecurityConfigurerAdapter - ##############################################################
+10:03:50.984 [main] WARN  i.g.m.s.c.BasicSecurityConfigurerAdapter - 
+10:03:50.984 [main] WARN  i.g.m.s.c.BasicSecurityConfigurerAdapter - You still use the default jwt secret.
+10:03:50.984 [main] WARN  i.g.m.s.c.BasicSecurityConfigurerAdapter - This known secret can be used to impersonate anyone.
+10:03:50.984 [main] WARN  i.g.m.s.c.BasicSecurityConfigurerAdapter - Please change this value, or ask your administrator to do it !
+10:03:50.984 [main] WARN  i.g.m.s.c.BasicSecurityConfigurerAdapter - 
+10:03:50.984 [main] WARN  i.g.m.s.c.BasicSecurityConfigurerAdapter - ##############################################################
+10:03:50.984 [main] WARN  i.g.m.s.c.BasicSecurityConfigurerAdapter - 
+10:03:51.053 [vert.x-eventloop-thread-0] INFO  i.g.n.m.h.v.e.ManagementEndpointManagerImpl - Register a new endpoint for Management API: GET / [io.gravitee.node.management.http.node.NodeEndpoint]
+10:03:51.054 [vert.x-eventloop-thread-0] INFO  i.g.n.m.h.v.e.ManagementEndpointManagerImpl - Register a new endpoint for Management API: GET /configuration [io.gravitee.node.management.http.configuration.ConfigurationEndpoint]
+10:03:51.054 [vert.x-eventloop-thread-0] INFO  i.g.n.m.h.v.v.ManagementVerticle - HTTP listener for Node Management bind to port TCP:18083
+10:03:51.691 [main] INFO  org.eclipse.jetty.server.session - node0 Stopped scavenging
